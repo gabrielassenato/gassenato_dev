@@ -27,6 +27,6 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## 📫 Contato
 
 Se você deseja entrar em contato comigo, pode me encontrar em:
-- **Email**: gabrielassenatodev@gmail.com(mailto:gabrielassenatodev@gmail.com)
-- **LinkedIn**: /gabriel-assenato(https://www.linkedin.com/in/gabriel-assenato/)
-- **GitHub**: /gabrielassenato(https://github.com/gabrielassenato)
+- **Email**: gabrielassenatodev@gmail.com
+- **LinkedIn**: /gabriel-assenato (https://www.linkedin.com/in/gabriel-assenato/)
+- **GitHub**: /gabrielassenato (https://github.com/gabrielassenato)
