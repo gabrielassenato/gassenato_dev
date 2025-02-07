@@ -23,18 +23,19 @@ const Skills = () => {
     { id: '4', image: logo4},
     { id: '5', image: logo5},
     { id: '6', image: logo6},
-    { id: '5', image: logo5},
-    { id: '6', image: logo6},
-    { id: '5', image: logo5},
-    { id: '6', image: logo6},
-    { id: '5', image: logo5},
-    { id: '6', image: logo6},
-    { id: '5', image: logo5},
-    { id: '6', image: logo6},
-    { id: '6', image: logo6}
+    { id: '5', image: logo7},
+    { id: '6', image: logo8},
+    { id: '5', image: logo9},
+    { id: '6', image: logo10},
+    { id: '5', image: logo11},
+    { id: '6', image: logo12},
+    { id: '5', image: logo13},
+    { id: '6', image: logo14},
+    { id: '6', image: logo15}
   ]
   return (
     <SkillsContainer>
+      <h1>Habilidades</h1>
         <SkillGrid>
           {data.map( (item) => (
             <SkillCard key={item.id}>
@@ -42,7 +43,6 @@ const Skills = () => {
             </SkillCard>
           )) }
         </SkillGrid>
-        <h1>Habilidades</h1>
     </SkillsContainer>
   )
 }
