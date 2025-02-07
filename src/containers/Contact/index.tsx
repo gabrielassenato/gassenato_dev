@@ -1,4 +1,3 @@
-import { Button } from "../Hero/styles";
 import { ContactContainer, LinksList, LinksItem } from "./styles";
 import logoLinkedIn from '../../assets/images/contact_icons/LinkedIn.png'
 import logoGitHub from '../../assets/images/contact_icons/GitHub.png'

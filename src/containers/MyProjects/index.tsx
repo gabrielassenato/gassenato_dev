@@ -1,6 +1,4 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectFade, Pagination } from 'swiper/modules';
-import React from 'react';
 
 import 'swiper/css';
 import 'swiper/css/navigation'
@@ -22,9 +20,11 @@ const MyProjects = () => {
   const [slidePerView, setSlidePerView] = useState(3)
   const data = [
     { id: '1', title: 'Efood', image: print01, tecnology: 'React, Java e Ts'},
-    { id: '2', title: 'Efood1', image: print02, tecnology: 'React,  Ts'},
-    { id: '3', title: 'Efood2', image: print03, tecnology: 'Reaa e Ts'},
-    { id: '4', title: 'Efood3', image: print04, tecnology: 'Ts'}
+    { id: '2', title: 'To Do List', image: print02, tecnology: 'React,  Ts'},
+    { id: '3', title: 'Sorteador', image: print03, tecnology: 'React e Ts'},
+    { id: '4', title: 'Assenato Tattoo', image: print04, tecnology: 'Ts'},
+    { id: '5', title: 'Finans', image: print05, tecnology: 'Ts'},
+    { id: '6', title: 'Lista Contatos', image: print06, tecnology: 'Ts'},
   ]
 
   useEffect(() => {
