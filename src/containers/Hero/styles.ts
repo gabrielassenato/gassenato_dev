@@ -12,7 +12,18 @@ export const HeroContainer = styled.div`
 
   h4 {
     font-family: "Poppins", serif;
+    font-size: 30px;
     font-weight: 300;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 40px;
+    }
+
+    h4 {
+      font-size: 20px;
+    }
   }
 `
 
@@ -28,6 +39,6 @@ export const Button = styled.button`
   margin: 60px 0;
 
   &:hover {
-    background: linear-gradient(90deg, ${colors.black}, ${colors.green}); 
+    background: linear-gradient(90deg, ${colors.black}, ${colors.green});
   }
 `

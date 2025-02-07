@@ -12,7 +12,12 @@ export const colors = {
 
 export const Container = styled.div`
   max-width: 1024px;
+  padding: 0 20px;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    max-width: 90%;
+  }
 `;
 
 export const GlobalStyle = createGlobalStyle`
@@ -32,6 +37,7 @@ export const GlobalStyle = createGlobalStyle`
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      
       }
 
       li {
