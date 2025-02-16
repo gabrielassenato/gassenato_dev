@@ -16,7 +16,7 @@ export const Container = styled.div`
   margin: 0 auto;
 
   @media (max-width: 768px) {
-    max-width: 90%;
+    max-width: 95%;
   }
 `;
 
@@ -37,7 +37,7 @@ export const GlobalStyle = createGlobalStyle`
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      
+
       }
 
       li {

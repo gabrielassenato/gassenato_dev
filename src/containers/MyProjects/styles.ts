@@ -32,11 +32,6 @@ export const MyProjectsContainer = styled.div`
 }
 `
 
-export const ProjectImage = styled.img`
-  height: 100%;
-  min-width: 100%;
-`
-
 export const Card = styled.div`
   margin: 0 auto;
   width: 360px;
@@ -44,11 +39,20 @@ export const Card = styled.div`
   overflow: hidden;
   background-color: #666;
   border-radius: 10px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 export const CardImage = styled.div`
   width: 100%;
   height: 200px;
+`
+
+export const ProjectImage = styled.img`
+  height: 100%;
+  min-width: 100%;
 `
 
 export const CardDescription = styled.div`
@@ -75,7 +79,7 @@ export const Button = styled.button`
   padding: 6px 25px;
   cursor: pointer;
   font-size: 16px;
-  transition: background 0.3s ease; 
+  transition: background 0.3s ease;
 
   &:hover {
     border: 1px solid ${colors.lightBlue};

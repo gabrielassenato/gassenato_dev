@@ -27,7 +27,7 @@ export const LinksList = styled.ul`
 
 export const LinksItem = styled.li`
   height: 100px;
-  margin: 0 12px;
+  margin: 0 3px;
   transition: transform 0.2s ease;
   img {
     height: 50px;
