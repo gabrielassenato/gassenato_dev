@@ -42,6 +42,8 @@ export const Card = styled.div`
 
   @media (max-width: 768px) {
     width: 100%;
+    margin-bottom: 32px;
+    height: 400px;
   }
 `
 
@@ -61,13 +63,19 @@ export const CardDescription = styled.div`
   text-align: center;
 
   h2 {
-    margin-bottom: 26px;
+    margin-bottom: 8px;
   }
 `
+
+export const Description = styled.p`
+  margin-bottom: 10px;
+`
+
 export const CardLinks = styled.div`
   text-decoration: none;
   display: flex;
   justify-content: space-between;
+  margin-top: 12px;
   padding: 0 28px;
 `
 
@@ -87,5 +95,14 @@ export const Button = styled.button`
 
   a {
     color: #fff;
+  }
+
+  &.full-width {
+    width: 100%;
+    display: block;
+    margin: 24px 0 0 0;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
   }
 `
