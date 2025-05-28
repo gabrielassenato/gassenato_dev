@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { colors } from "../../styles";
 
 export const HeroContainer = styled.div`
-  margin-top: 60px;
+  margin-top: 160px;
 
   h1 {
     font-family: "Bakbak One", serif;
