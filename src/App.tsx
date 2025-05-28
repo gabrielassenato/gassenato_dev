@@ -11,9 +11,7 @@ function App() {
   return (
     <>
     <GlobalStyle />
-      <Container>
         <Header />
-      </Container>
         <Hero />
       <Container>
         <About />
