@@ -10,7 +10,6 @@ import print02 from '../../assets/images/prints_projects/mock-toDoList.png'
 import print03 from '../../assets/images/prints_projects/mock-sorteador.png'
 import print04 from '../../assets/images/prints_projects/mock-tattoo.png'
 import print05 from '../../assets/images/prints_projects/mock-finans.png'
-import print06 from '../../assets/images/prints_projects/mock-contatos2.png'
 import print07 from '../../assets/images/prints_projects/mock-ReciclaPoa.png'
 import { Button, Card, CardDescription, CardImage, CardLinks, Description, MyProjectsContainer, ProjectImage } from './styles';
 import { useState, useEffect } from 'react';
