@@ -38,7 +38,7 @@ const Skills = () => {
   const [selectedSkill, setSelectedSkill] = useState<string | null>(null);
 
   return (
-    <SkillsContainer expanded={selectedSkill !== null}>
+    <SkillsContainer id="skills" expanded={selectedSkill !== null}>
       <h1>Habilidades</h1>
       <h2>* clique na iamgem para ver a descrição *</h2>
       <SkillGrid>

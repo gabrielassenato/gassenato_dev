@@ -130,7 +130,7 @@ const MyProjects = () => {
   }, [])
 
   return (
-    <MyProjectsContainer>
+    <MyProjectsContainer id="projects">
       <h1>Meus Projetos</h1>
       {isMobile ? (
         <div>
