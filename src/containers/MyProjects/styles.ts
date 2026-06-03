@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { colors } from "../../styles";
 
 export const MyProjectsContainer = styled.div`
+  scroll-margin-top: 100px;
   margin: 200px 0;
 
   h1 {

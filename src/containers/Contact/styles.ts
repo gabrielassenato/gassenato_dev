@@ -10,10 +10,13 @@ export const ContactContainer = styled.div`
   }
 
   span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  
     img {
-      align-items: center;
       height: 24px;
-      margin-top: 28px;
     }
   }
 `

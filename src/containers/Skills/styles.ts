@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { colors } from "../../styles";
 
 export const SkillsContainer = styled.div<{ expanded: boolean }>`
+  scroll-margin-top: 100px;
   min-height: ${(props) => (props.expanded ? "400px" : "250px")};
   background-color: ${colors.grey};
   display: block;

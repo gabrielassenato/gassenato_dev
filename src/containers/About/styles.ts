@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { colors } from "../../styles";
 
 export const AboutContainer = styled.div`
+  scroll-margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
