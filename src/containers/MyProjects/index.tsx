@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
@@ -11,6 +12,9 @@ import print03 from '../../assets/images/prints_projects/mock-sorteador.png'
 import print04 from '../../assets/images/prints_projects/mock-tattoo.png'
 import print05 from '../../assets/images/prints_projects/mock-finans.png'
 import print07 from '../../assets/images/prints_projects/mock-ReciclaPoa.png'
+import print08 from '../../assets/images/prints_projects/mock-yrai.png'
+import print09 from '../../assets/images/prints_projects/mock-raiseeng.png'
+
 import { Button, Card, CardDescription, CardImage, CardLinks, Description, MyProjectsContainer, ProjectImage } from './styles';
 import { useState, useEffect } from 'react';
 
@@ -102,6 +106,24 @@ const data = [
     repositoryUrl: 'https://github.com/gabrielassenato/to-do-list-vue',
     liveUrl: 'https://to-do-list-vue-omega.vercel.app/'
   },
+  {
+    id: '8',
+    title: 'Yrai',
+    image: print08,
+    description: 'Esse site tem a finalidade de apresentar uma loja de materiais de construção.',
+    tecnology: 'Html e Css',
+    repositoryUrl: 'https://github.com/gabrielassenato/yrai',
+    liveUrl: 'https://yrai.vercel.app/'
+  },
+  {
+    id: '9',
+    title: 'Raise',
+    image: print09,
+    description: 'Esse site tem a finalidade apresentar um serviço de uma empresa de engenharia.',
+    tecnology: 'Html e Css',
+    repositoryUrl: 'https://github.com/gabrielassenato/raise',
+    liveUrl: 'https://raise.vercel.app/'
+  }
 ];
 
 const MyProjects = () => {
@@ -146,6 +168,8 @@ const MyProjects = () => {
         </div>
       ) : (
         <Swiper
+          modules={[Navigation]}
+          navigation={true}
           slidesPerView={slidePerView}
           centeredSlides={true}
           loop={true}

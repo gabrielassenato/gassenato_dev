@@ -20,7 +20,7 @@ export const Contact = () => (
         </a>
       </LinksItem>
       <LinksItem>
-        <a href="mailto:gabrielassenato@gmail.com" target="blank">
+        <a href="mailto:gabrielassenatodev@gmail.com" target="blank">
           <img src={logoGmail} alt="" />
         </a>
       </LinksItem>
