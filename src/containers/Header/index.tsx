@@ -29,6 +29,9 @@ const Header = () => {
               <a href="#about" onClick={handleLinkClick}>Sobre</a>
             </LinkItens>
             <LinkItens>
+              <a href="#experience" onClick={handleLinkClick}>Experiencias</a>
+            </LinkItens>
+            <LinkItens>
               <a href="#projects" onClick={handleLinkClick}>Projetos</a>
             </LinkItens>
             <LinkItens>

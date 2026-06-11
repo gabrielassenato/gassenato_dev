@@ -96,10 +96,7 @@ export const LinkItens = styled.li`
   a {
     color: ${colors.white};
     font-family: "Poppins", serif;
-    font-size: 1.1rem;
-    text-decoration: none;
-    transition: color 0.2s;
-    display: inline-flex;
+      font-size: 17px;
     align-items: center;
     height: 64px;
     @media (max-width: 768px) {
