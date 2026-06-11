@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
@@ -168,8 +168,10 @@ const MyProjects = () => {
         </div>
       ) : (
         <Swiper
-          modules={[Navigation]}
+          modules={[Navigation, Pagination, Autoplay]}
           navigation={true}
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 4000, disableOnInteraction: false }}
           slidesPerView={slidePerView}
           centeredSlides={true}
           loop={true}

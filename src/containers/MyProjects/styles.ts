@@ -10,8 +10,90 @@ export const MyProjectsContainer = styled.div`
     margin-bottom: 64px;
   }
 
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: ${colors.white};
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    transform: scale(1.05);
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 18px;
+  }
+
+  .swiper {
+    padding-bottom: 100px;
+  }
+
+  .swiper {
+    padding-bottom: 90px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: auto;
+    bottom: 16px;
+    width: 38px;
+    height: 38px;
+  }
+
+  .swiper-button-prev {
+    left: calc(50% - 190px);
+    right: auto;
+  }
+
+  .swiper-button-next {
+    left: calc(50% + 150px);
+    right: auto;
+  }
+
+  .swiper-button-disabled {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+
+  .swiper-pagination {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: auto;
+    z-index: 1;
+  }
+
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.4);
+    opacity: 1;
+    margin: 0 6px !important;
+    transition: background 0.25s ease, transform 0.25s ease;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: ${colors.green};
+    transform: scale(1.2);
+  }
+
 
 .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: transform 0.5s ease, filter 0.5s ease;
   transform: scale(0.8);
   opacity: 0.5;
